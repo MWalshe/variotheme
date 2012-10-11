@@ -7,6 +7,7 @@
 	                </nav>
 	                		
 					<p class="attribution">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
+				<!-- Here there be dragons. -->
 				
 				</div> <!-- end #inner-footer -->
 				
