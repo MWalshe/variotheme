@@ -10,13 +10,13 @@
 						
 							<header class="article-header">
 							
-								<h1><?php _e("Epic 404 - Article Not Found", "bonestheme"); ?></h1>
+								<h1><?php _e("404 - This is not the page you're looking for.", "bonestheme"); ?></h1>
 						
 							</header> <!-- end article header -->
 					
 							<section class="post-content">
 							
-								<p><?php _e("The article you were looking for was not found, but maybe try looking again!", "bonestheme"); ?></p>
+								<p><?php _e("Try searching the site again.", "bonestheme"); ?></p>
 					
 							</section> <!-- end article section -->
 
