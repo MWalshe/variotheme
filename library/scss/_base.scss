@@ -1,8 +1,8 @@
 /******************************************************************
 Site Name:
 Author:
-
-Stylesheet: Base Mobile Stylesheet
+  
+Stylesheet:  Base Mobile Stylesheet
 
 Be light and don't over style since everything here will be
 loaded by mobile devices. You want to keep it as minimal as
@@ -16,7 +16,7 @@ GENERAL STYLES
 *********************/
 
 body {
-	font-family: Georgia, serif;
+	font-family: 'Arvo', serif;
 	font-size: 14px;
 	line-height: 1.5;
 	color: #565656;
@@ -176,7 +176,7 @@ and moe scalable.
 */
 
 .nav {
-	border: 1px solid #ccc;
+	border: 20px solid #111;
 	border-bottom: 0;
 
 	li {
