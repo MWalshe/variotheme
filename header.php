@@ -73,6 +73,7 @@
 					
 					
 					<nav role="navigation">
+						<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
 						<style type="text/css">
 
 .underlinemenu{
@@ -104,7 +105,7 @@ border-bottom-color: black;
 
 </style>
 
-						<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+						
 					</nav>
 				<!-- Place somewhere in the <body> of your page -->
 <div class="flexslider">
