@@ -47,7 +47,12 @@
 		<!-- end analytics -->
 		<script type="text/javascript" charset="utf-8">
   jQuery(window).load(function() {
-    jQuery('.flexslider').flexslider();
+    jQuery('.flexslider').flexslider({
+    animation: "slide",
+    animationLoop: false,
+    itemWidth: 210,
+    itemMargin: 5
+  });
   });
 </script>
 	</head>
