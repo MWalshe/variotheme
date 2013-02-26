@@ -79,13 +79,19 @@
 <div class="flexslider">
   <ul class="slides">
     <li>
-      <img src="http://placekitten.com/200/300" />
+      <img src="http://variationsonastring.files.wordpress.com/2013/02/harry-potter-socks_5_sm.jpg" />
     </li>
     <li>
-      <img src="http://placekitten.com/200/300" />
+      <img src="http://variationsonastring.wordpress.com/2013/01/07/agatha-glovelets/lace-up-gloves_1/" />
     </li>
     <li>
-      <img src="http://placekitten.com/200/300" />
+      <img src="http://variationsonastring.wordpress.com/2012/01/29/j-is-for-joy/j-is-for-joy_3_small/" />
+    </li>
+<li>
+      <img src="http://variationsonastring.wordpress.com/2013/02/11/351/img_0554/" />
+    </li>
+<li>
+      <img src="hhttp://variationsonastring.wordpress.com/2012/08/10/hydrating-hydrangeas/water-bottle-cover_1/" />
     </li>
   </ul>
 </div>
