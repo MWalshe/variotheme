@@ -73,7 +73,7 @@
 					
 					
 					<nav role="navigation">
-						<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+						<?php bones_main_nav(); 
 						<style type="text/css">
 
 .underlinemenu{
@@ -103,7 +103,7 @@ border-bottom: 3px solid gray; /*bottom border is 3px*/
 border-bottom-color: black;
 }
 
-</style>
+</style>?>
 
 						
 					</nav>
