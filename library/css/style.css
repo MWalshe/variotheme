@@ -1777,31 +1777,63 @@ you can add resource intensive styles.
   }
 
   /* end .nav */
+  /* line 211, ../scss/_768up.scss */
+  .header .nav {
+    font-weight: bold;
+    width: 100%;
+  }
+  /* line 216, ../scss/_768up.scss */
+  .header .nav ul {
+    padding: 6px 0 7px 0;
+    /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+    margin: 0;
+    text-align: right;
+  }
+  /* line 222, ../scss/_768up.scss */
+  .header .nav ul li {
+    display: inline;
+  }
+  /* line 226, ../scss/_768up.scss */
+  .header .nav ul li a {
+    color: #494949;
+    padding: 6px 3px 4px 3px;
+    /*top padding is 6px, bottom padding is 4px*/
+    margin-right: 20px;
+    /*spacing between each menu link*/
+    text-decoration: none;
+    border-bottom: 3px solid gray;
+    /*bottom border is 3px*/
+  }
+  /* line 234, ../scss/_768up.scss */
+  .header .nav ul li a:hover, .header .nav ul li a.selected {
+    border-bottom-color: black;
+  }
+
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  /* line 214, ../scss/_768up.scss */
+  /* line 243, ../scss/_768up.scss */
   .sidebar {
     margin-top: 2.2em;
   }
 
-  /* line 218, ../scss/_768up.scss */
+  /* line 247, ../scss/_768up.scss */
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em;
   }
 
-  /* line 223, ../scss/_768up.scss */
+  /* line 252, ../scss/_768up.scss */
   .widget {
     padding: 0 10px;
     margin: 2.2em 0;
   }
-  /* line 228, ../scss/_768up.scss */
+  /* line 257, ../scss/_768up.scss */
   .widget ul li {
     margin-bottom: 0.75em;
     /* deep nesting */
   }
-  /* line 236, ../scss/_768up.scss */
+  /* line 265, ../scss/_768up.scss */
   .widget ul li ul {
     margin-top: 0.75em;
     padding-left: 1em;
@@ -1826,7 +1858,7 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 344, ../scss/_768up.scss */
+  /* line 373, ../scss/_768up.scss */
   .footer-links ul li {
     /* 
     be careful with the depth of your menus.
