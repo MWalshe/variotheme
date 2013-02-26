@@ -587,23 +587,23 @@ NAVIGATION STYLES
 
 /* end .nav */
 /* line 211, ../scss/_768up.scss */
-.header .nav {
+.header .underlinemenu {
   font-weight: bold;
   width: 100%;
 }
 /* line 216, ../scss/_768up.scss */
-.header .nav ul {
+.header .underlinemenu ul {
   padding: 6px 0 7px 0;
   /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
   margin: 0;
   text-align: right;
 }
 /* line 222, ../scss/_768up.scss */
-.header .nav ul li {
+.header .underlinemenu ul li {
   display: inline;
 }
 /* line 226, ../scss/_768up.scss */
-.header .nav ul li a {
+.header .underlinemenu ul li a {
   color: #494949;
   padding: 6px 3px 4px 3px;
   /*top padding is 6px, bottom padding is 4px*/
@@ -614,7 +614,7 @@ NAVIGATION STYLES
   /*bottom border is 3px*/
 }
 /* line 234, ../scss/_768up.scss */
-.header .nav ul li a:hover, .header .nav ul li a.selected {
+.header .underlinemenu ul li a:hover, .header .underlinemenu ul li a.selected {
   border-bottom-color: black;
 }
 
