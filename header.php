@@ -27,6 +27,8 @@
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/js/flexslider.css" type="text/css">
+<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.flexslider-min.js"></script>
 			
 		<!-- drop Google Analytics Here -->
 		<script type="text/javascript">
@@ -43,7 +45,11 @@
 
 </script>
 		<!-- end analytics -->
-		
+		<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
 	</head>
 	
 	<body <?php body_class(); ?>>
@@ -64,7 +70,20 @@
 					<nav role="navigation">
 						<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
-				
+				<!-- Place somewhere in the <body> of your page -->
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="http://placekitten.com/200/300" />
+    </li>
+    <li>
+      <img src="http://placekitten.com/200/300" />
+    </li>
+    <li>
+      <img src="http://placekitten.com/200/300" />
+    </li>
+  </ul>
+</div>
 				</div> <!-- end #inner-header -->
 			
 			</header> <!-- end header -->
